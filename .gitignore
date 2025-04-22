@@ -1,10 +1,12 @@
 # Environment variables
 .env
+*.env
 
 # Virtual Environment
 venv/
 env/
 ENV/
+.venv/
 
 # Python
 __pycache__/
@@ -33,4 +35,29 @@ wheels/
 .idea/
 *.swp
 *.swo
-.DS_Store 
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# AWS
+.aws/
+
+# Database
+*.db
+*.sqlite3
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover 

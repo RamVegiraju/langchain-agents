@@ -29,9 +29,9 @@ def main():
     )
     
     # Sample query 1
-    query = "Calculate 4 + 4"
+    # query = "Calculate 4 + 4"
     # Sample query 2
-    # query "What is the population of Japan divided by the number of islands it has?"
+    query = "What is the population of Japan divided by the number of islands it has?"
     try:
         response = agent.run(query)
         print(f"\nResponse: {response}")
