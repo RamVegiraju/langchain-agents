@@ -1,0 +1,6 @@
+langchain
+langchain-community
+langchain-experimental
+boto3
+python-dotenv
+spotipy 
